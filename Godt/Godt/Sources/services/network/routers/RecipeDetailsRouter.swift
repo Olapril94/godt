@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 
 enum RecipeDetailsRouter: URLRequestConvertible {
-    case details(id: String)
+    case details(id: Int)
     
     var method: HTTPMethod {
         switch self {

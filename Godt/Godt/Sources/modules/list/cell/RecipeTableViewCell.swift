@@ -22,7 +22,8 @@ class RecipeTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    func setup() {
-        
+    func setup(data: RecipeDomain) {
+        titleLabel.text = data.title
+        recipeImageView.set(imageByStringURL: data.imageUrl)
     }
 }
