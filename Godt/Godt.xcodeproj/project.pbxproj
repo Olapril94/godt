@@ -7,25 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012F1174029F6366D5392A92 /* Pods_Godt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E76ED04A55EF2DC86F9A6C /* Pods_Godt.framework */; };
-		1FCCE9E4205D7588002BC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCE9E3205D7588002BC945 /* AppDelegate.swift */; };
-		1FCCE9E6205D7588002BC945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCE9E5205D7588002BC945 /* ViewController.swift */; };
-		1FCCE9E9205D7588002BC945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCE9E7205D7588002BC945 /* Main.storyboard */; };
-		1FCCE9EB205D7588002BC945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCE9EA205D7588002BC945 /* Assets.xcassets */; };
-		1FCCE9EE205D7588002BC945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCE9EC205D7588002BC945 /* LaunchScreen.storyboard */; };
+		012F1174029F6366D5392A92 /* Pods_Godt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E76ED04A55EF2DC86F9A6C /* Pods_Godt.framework */; };1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */; };
+		1FCCEA20205D7D16002BC945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */; };
+		1FCCEA21205D7D16002BC945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA17205D7D16002BC945 /* Main.storyboard */; };
+		1FCCEA22205D7D16002BC945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA1C205D7D16002BC945 /* Assets.xcassets */; };
+		1FCCEA23205D7D16002BC945 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA1D205D7D16002BC945 /* Info.plist */; };
+		1FCCEA25205D7D4E002BC945 /* ReceiptDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA24205D7D4E002BC945 /* ReceiptDetailsViewController.swift */; };
+		1FCCEA27205D7D65002BC945 /* ReceiptDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA26205D7D65002BC945 /* ReceiptDetailsViewModel.swift */; };
+		1FCCEA29205D7DA6002BC945 /* ReceiptListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA28205D7DA6002BC945 /* ReceiptListViewModel.swift */; };
+		1FCCEA2B205D7DC6002BC945 /* ReceiptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA2A205D7DC6002BC945 /* ReceiptListViewController.swift */; };
+		1FCCEA2D205D7EF2002BC945 /* ReceiptDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA2C205D7EF2002BC945 /* ReceiptDetailService.swift */; };
+		1FCCEA2F205D7F14002BC945 /* ReceiptListServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA2E205D7F14002BC945 /* ReceiptListServices.swift */; };
+		1FCCEA31205D7F70002BC945 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA30205D7F70002BC945 /* String.swift */; };
+		1FCCEA33205D7FC7002BC945 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA32205D7FC7002BC945 /* Log.swift */; };
+		1FCCEA35205D808C002BC945 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA34205D808C002BC945 /* Config.swift */; };
+		1FCCEA37205D809B002BC945 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA36205D809B002BC945 /* Color.swift */; };
+		1FCCEA39205D80A9002BC945 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA38205D80A9002BC945 /* Asset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0771D035C3CB35E9528323C5 /* Pods-Godt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Godt/Pods-Godt.release.xcconfig"; sourceTree = "<group>"; };
 		11E76ED04A55EF2DC86F9A6C /* Pods_Godt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Godt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCCE9E0205D7588002BC945 /* Godt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FCCE9E3205D7588002BC945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FCCE9E5205D7588002BC945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FCCE9E8205D7588002BC945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FCCE9EA205D7588002BC945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FCCE9ED205D7588002BC945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1FCCE9EF205D7588002BC945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9113BD1FEBCC09881933007 /* Pods-Godt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Godt/Pods-Godt.debug.xcconfig"; sourceTree = "<group>"; };
+		1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FCCEA17205D7D16002BC945 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1FCCEA1C205D7D16002BC945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCCEA1D205D7D16002BC945 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCCEA24205D7D4E002BC945 /* ReceiptDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsViewController.swift; sourceTree = "<group>"; };
+		1FCCEA26205D7D65002BC945 /* ReceiptDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsViewModel.swift; sourceTree = "<group>"; };
+		1FCCEA28205D7DA6002BC945 /* ReceiptListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewModel.swift; sourceTree = "<group>"; };
+		1FCCEA2A205D7DC6002BC945 /* ReceiptListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewController.swift; sourceTree = "<group>"; };
+		1FCCEA2C205D7EF2002BC945 /* ReceiptDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetailService.swift; sourceTree = "<group>"; };
+		1FCCEA2E205D7F14002BC945 /* ReceiptListServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListServices.swift; sourceTree = "<group>"; };
+		1FCCEA30205D7F70002BC945 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1FCCEA32205D7FC7002BC945 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		1FCCEA34205D808C002BC945 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1FCCEA36205D809B002BC945 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1FCCEA38205D80A9002BC945 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };F9113BD1FEBCC09881933007 /* Pods-Godt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Godt/Pods-Godt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +80,8 @@
 		1FCCE9E2205D7588002BC945 /* Godt */ = {
 			isa = PBXGroup;
 			children = (
-				1FCCE9E3205D7588002BC945 /* AppDelegate.swift */,
-				1FCCE9E5205D7588002BC945 /* ViewController.swift */,
-				1FCCE9E7205D7588002BC945 /* Main.storyboard */,
-				1FCCE9EA205D7588002BC945 /* Assets.xcassets */,
-				1FCCE9EC205D7588002BC945 /* LaunchScreen.storyboard */,
-				1FCCE9EF205D7588002BC945 /* Info.plist */,
+				1FCCEA1B205D7D16002BC945 /* Resorces */,
+				1FCCEA05205D7D16002BC945 /* Sources */,
 			);
 			path = Godt;
 			sourceTree = "<group>";
@@ -86,6 +101,172 @@
 				0771D035C3CB35E9528323C5 /* Pods-Godt.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		1FCCEA05205D7D16002BC945 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA06205D7D16002BC945 /* settings */,
+				1FCCEA08205D7D16002BC945 /* common */,
+				1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */,
+				1FCCEA0C205D7D16002BC945 /* modules */,
+				1FCCEA18205D7D16002BC945 /* services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1FCCEA06205D7D16002BC945 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA34205D808C002BC945 /* Config.swift */,
+				1FCCEA36205D809B002BC945 /* Color.swift */,
+				1FCCEA38205D80A9002BC945 /* Asset.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		1FCCEA08205D7D16002BC945 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA09205D7D16002BC945 /* logger */,
+				1FCCEA0A205D7D16002BC945 /* extensions */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		1FCCEA09205D7D16002BC945 /* logger */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA32205D7FC7002BC945 /* Log.swift */,
+			);
+			path = logger;
+			sourceTree = "<group>";
+		};
+		1FCCEA0A205D7D16002BC945 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA30205D7F70002BC945 /* String.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		1FCCEA0C205D7D16002BC945 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA0D205D7D16002BC945 /* details */,
+				1FCCEA11205D7D16002BC945 /* list */,
+				1FCCEA15205D7D16002BC945 /* main */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		1FCCEA0D205D7D16002BC945 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA0E205D7D16002BC945 /* viewModel */,
+				1FCCEA0F205D7D16002BC945 /* controller */,
+				1FCCEA10205D7D16002BC945 /* service */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		1FCCEA0E205D7D16002BC945 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA26205D7D65002BC945 /* ReceiptDetailsViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		1FCCEA0F205D7D16002BC945 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA24205D7D4E002BC945 /* ReceiptDetailsViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1FCCEA10205D7D16002BC945 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA2C205D7EF2002BC945 /* ReceiptDetailService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		1FCCEA11205D7D16002BC945 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA12205D7D16002BC945 /* viewModel */,
+				1FCCEA13205D7D16002BC945 /* controller */,
+				1FCCEA14205D7D16002BC945 /* service */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		1FCCEA12205D7D16002BC945 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA28205D7DA6002BC945 /* ReceiptListViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		1FCCEA13205D7D16002BC945 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA2A205D7DC6002BC945 /* ReceiptListViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1FCCEA14205D7D16002BC945 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA2E205D7F14002BC945 /* ReceiptListServices.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		1FCCEA15205D7D16002BC945 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */,
+				1FCCEA17205D7D16002BC945 /* Main.storyboard */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		1FCCEA18205D7D16002BC945 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA19205D7D16002BC945 /* network */,
+				1FCCEA1A205D7D16002BC945 /* imageServices */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		1FCCEA19205D7D16002BC945 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		1FCCEA1A205D7D16002BC945 /* imageServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = imageServices;
+			sourceTree = "<group>";
+		};
+		1FCCEA1B205D7D16002BC945 /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				1FCCEA1C205D7D16002BC945 /* Assets.xcassets */,
+				1FCCEA1D205D7D16002BC945 /* Info.plist */,
+			);
+			path = Resorces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +331,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCCE9EE205D7588002BC945 /* LaunchScreen.storyboard in Resources */,
-				1FCCE9EB205D7588002BC945 /* Assets.xcassets in Resources */,
-				1FCCE9E9205D7588002BC945 /* Main.storyboard in Resources */,
+				1FCCEA23205D7D16002BC945 /* Info.plist in Resources */,
+				1FCCEA20205D7D16002BC945 /* LaunchScreen.storyboard in Resources */,
+				1FCCEA22205D7D16002BC945 /* Assets.xcassets in Resources */,
+				1FCCEA21205D7D16002BC945 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,31 +403,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCCE9E6205D7588002BC945 /* ViewController.swift in Sources */,
-				1FCCE9E4205D7588002BC945 /* AppDelegate.swift in Sources */,
+				1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */,
+				1FCCEA2F205D7F14002BC945 /* ReceiptListServices.swift in Sources */,
+				1FCCEA37205D809B002BC945 /* Color.swift in Sources */,
+				1FCCEA33205D7FC7002BC945 /* Log.swift in Sources */,
+				1FCCEA2B205D7DC6002BC945 /* ReceiptListViewController.swift in Sources */,
+				1FCCEA25205D7D4E002BC945 /* ReceiptDetailsViewController.swift in Sources */,
+				1FCCEA39205D80A9002BC945 /* Asset.swift in Sources */,
+				1FCCEA2D205D7EF2002BC945 /* ReceiptDetailService.swift in Sources */,
+				1FCCEA27205D7D65002BC945 /* ReceiptDetailsViewModel.swift in Sources */,
+				1FCCEA35205D808C002BC945 /* Config.swift in Sources */,
+				1FCCEA31205D7F70002BC945 /* String.swift in Sources */,
+				1FCCEA29205D7DA6002BC945 /* ReceiptListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1FCCE9E7205D7588002BC945 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FCCE9E8205D7588002BC945 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1FCCE9EC205D7588002BC945 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FCCE9ED205D7588002BC945 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FCCE9F0205D7588002BC945 /* Debug */ = {
@@ -362,7 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Godt/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Godt/Resorces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.godt.Godt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,7 +552,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Godt/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Godt/Resorces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.godt.Godt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
