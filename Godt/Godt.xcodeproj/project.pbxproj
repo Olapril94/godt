@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */; };
+		012F1174029F6366D5392A92 /* Pods_Godt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E76ED04A55EF2DC86F9A6C /* Pods_Godt.framework */; };1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */; };
 		1FCCEA20205D7D16002BC945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */; };
 		1FCCEA21205D7D16002BC945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA17205D7D16002BC945 /* Main.storyboard */; };
 		1FCCEA22205D7D16002BC945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA1C205D7D16002BC945 /* Assets.xcassets */; };
@@ -26,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0771D035C3CB35E9528323C5 /* Pods-Godt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Godt/Pods-Godt.release.xcconfig"; sourceTree = "<group>"; };
+		11E76ED04A55EF2DC86F9A6C /* Pods_Godt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Godt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCCE9E0205D7588002BC945 /* Godt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,7 +44,7 @@
 		1FCCEA32205D7FC7002BC945 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		1FCCEA34205D808C002BC945 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		1FCCEA36205D809B002BC945 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		1FCCEA38205D80A9002BC945 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		1FCCEA38205D80A9002BC945 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };F9113BD1FEBCC09881933007 /* Pods-Godt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Godt/Pods-Godt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012F1174029F6366D5392A92 /* Pods_Godt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,8 @@
 			children = (
 				1FCCE9E2205D7588002BC945 /* Godt */,
 				1FCCE9E1205D7588002BC945 /* Products */,
+				F43AD3257D31014E2EF73D05 /* Pods */,
+				7AA748B065174E07D2BBE4D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +84,23 @@
 				1FCCEA05205D7D16002BC945 /* Sources */,
 			);
 			path = Godt;
+			sourceTree = "<group>";
+		};
+		7AA748B065174E07D2BBE4D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E76ED04A55EF2DC86F9A6C /* Pods_Godt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43AD3257D31014E2EF73D05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9113BD1FEBCC09881933007 /* Pods-Godt.debug.xcconfig */,
+				0771D035C3CB35E9528323C5 /* Pods-Godt.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		1FCCEA05205D7D16002BC945 /* Sources */ = {
@@ -254,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FCCE9F2205D7588002BC945 /* Build configuration list for PBXNativeTarget "Godt" */;
 			buildPhases = (
+				AD1A2AA0CE4BE1D14533AB5A /* [CP] Check Pods Manifest.lock */,
 				1FCCE9DC205D7588002BC945 /* Sources */,
 				1FCCE9DD205D7588002BC945 /* Frameworks */,
 				1FCCE9DE205D7588002BC945 /* Resources */,
+				DAACDF230AFE8BBA67387CDC /* [CP] Embed Pods Frameworks */,
+				48874DAEEDE9A6E67A673C36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +339,64 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48874DAEEDE9A6E67A673C36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Godt/Pods-Godt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1A2AA0CE4BE1D14533AB5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Godt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAACDF230AFE8BBA67387CDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Godt/Pods-Godt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Godt/Pods-Godt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FCCE9DC205D7588002BC945 /* Sources */ = {
@@ -447,6 +530,7 @@
 		};
 		1FCCE9F3205D7588002BC945 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9113BD1FEBCC09881933007 /* Pods-Godt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -463,6 +547,7 @@
 		};
 		1FCCE9F4205D7588002BC945 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0771D035C3CB35E9528323C5 /* Pods-Godt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
