@@ -1,5 +1,5 @@
 //
-//  ReceiptDetailService.swift
+//  RecipeListViewModel.swift
 //  Godt
 //
 //  Created by Aleksandra Kwiecien on 17/03/2018.
@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
+class ReceiptListViewModel {
+    
+}

@@ -1,5 +1,5 @@
 //
-//  Asset.swift
+//  RecipeListViewController.swift
 //  Godt
 //
 //  Created by Aleksandra Kwiecien on 17/03/2018.
@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
-struct Asset {
-      static let defaultImage = UIImage(named: "no_photo_placeholder")!
+class ReceiptListViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
