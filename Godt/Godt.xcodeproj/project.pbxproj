@@ -17,6 +17,8 @@
 		1F0E2E23205D85F9004B5E16 /* ImageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E1F205D85F8004B5E16 /* ImageError.swift */; };
 		1F0E2E25205D85F9004B5E16 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E21205D85F8004B5E16 /* ImageManager.swift */; };
 		1F0E2E28205D8B02004B5E16 /* RecipeDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E27205D8B02004B5E16 /* RecipeDetailsRouter.swift */; };
+		1F0E2E2B205D92A0004B5E16 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0E2E2A205D92A0004B5E16 /* RecipeTableViewCell.xib */; };
+		1F0E2E2D205D92B4004B5E16 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E2C205D92B4004B5E16 /* RecipeTableViewCell.swift */; };
 		1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */; };
 		1FCCEA20205D7D16002BC945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */; };
 		1FCCEA21205D7D16002BC945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA17205D7D16002BC945 /* Main.storyboard */; };
@@ -47,6 +49,8 @@
 		1F0E2E1F205D85F8004B5E16 /* ImageError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageError.swift; sourceTree = "<group>"; };
 		1F0E2E21205D85F8004B5E16 /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		1F0E2E27205D8B02004B5E16 /* RecipeDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsRouter.swift; sourceTree = "<group>"; };
+		1F0E2E2A205D92A0004B5E16 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		1F0E2E2C205D92B4004B5E16 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 		1FCCE9E0205D7588002BC945 /* Godt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +90,15 @@
 				1F0E2E27205D8B02004B5E16 /* RecipeDetailsRouter.swift */,
 			);
 			path = Routers;
+			sourceTree = "<group>";
+		};
+		1F0E2E29205D9284004B5E16 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E2E2A205D92A0004B5E16 /* RecipeTableViewCell.xib */,
+				1F0E2E2C205D92B4004B5E16 /* RecipeTableViewCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		1FCCE9D7205D7588002BC945 = {
@@ -209,6 +222,7 @@
 		1FCCEA11205D7D16002BC945 /* list */ = {
 			isa = PBXGroup;
 			children = (
+				1F0E2E29205D9284004B5E16 /* cell */,
 				1FCCEA12205D7D16002BC945 /* viewModel */,
 				1FCCEA13205D7D16002BC945 /* controller */,
 				1FCCEA14205D7D16002BC945 /* service */,
@@ -371,6 +385,7 @@
 				1FCCEA23205D7D16002BC945 /* Info.plist in Resources */,
 				1FCCEA20205D7D16002BC945 /* LaunchScreen.storyboard in Resources */,
 				1FCCEA22205D7D16002BC945 /* Assets.xcassets in Resources */,
+				1F0E2E2B205D92A0004B5E16 /* RecipeTableViewCell.xib in Resources */,
 				1FCCEA21205D7D16002BC945 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +458,7 @@
 				1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */,
 				1FCCEA2F205D7F14002BC945 /* RecipeListServices.swift in Sources */,
 				1F0E2E1A205D85F3004B5E16 /* UserAuthManager.swift in Sources */,
+				1F0E2E2D205D92B4004B5E16 /* RecipeTableViewCell.swift in Sources */,
 				1F0E2E23205D85F9004B5E16 /* ImageError.swift in Sources */,
 				1F0E2E1D205D85F3004B5E16 /* ResponseError.swift in Sources */,
 				1FCCEA37205D809B002BC945 /* Color.swift in Sources */,
