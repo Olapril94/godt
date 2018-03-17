@@ -9,6 +9,15 @@
 import Foundation
 import UIKit
 
-class ReceiptListViewModel {
+class RecipeListViewModel {
     
+    // MARK: - Private properties
+    
+    private let service: RecipeListService!
+    
+    // MARK: - Intialization
+    
+    init() {
+        service = RecipeListService()
+    }
 }
