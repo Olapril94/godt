@@ -44,7 +44,7 @@
                     <connections>
                         <outlet property="searchBar" destination="ICp-PQ-MKK" id="wOO-CX-6eV"/>
                         <outlet property="tableView" destination="sLB-QJ-kFr" id="wsT-aS-uB4"/>
-                        <segue destination="48V-Mw-MqJ" kind="show" id="YRj-cq-d8m"/>
+                        <segue destination="48V-Mw-MqJ" kind="show" identifier="RecipeDetailsSegueIdentifier" id="YRj-cq-d8m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -11,4 +11,13 @@ import UIKit
 
 class RecipeDetailsViewModel {
     
+    // MARK: - Private properties
+    
+    private let service: RecipeDetailsService!
+    
+    // MARK: - Intialization
+    
+    init() {
+        service = RecipeDetailsService()
+    }
 }

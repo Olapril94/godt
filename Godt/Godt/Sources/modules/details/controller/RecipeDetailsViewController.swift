@@ -17,9 +17,11 @@ class RecipeDetailsViewController: UIViewController {
     
     // MARK: - Private properties
     
+    private var viewModel: RecipeDetailsViewModel!
+    
     // MARK: - Public properties
     
-    private var viewModel: RecipeDetailsViewModel!
+    var recipeId: Int!
     
     // MARK: - Life cycle
     
@@ -57,11 +59,11 @@ extension RecipeDetailsViewController: UISearchBarDelegate {
 
 extension RecipeDetailsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        fatalError("tableView(tableView:section:) has not been implemented")
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        fatalError("tableView(tableView:indexPath:) has not been implemented")
+        return UITableViewCell()
     }
 }
 
