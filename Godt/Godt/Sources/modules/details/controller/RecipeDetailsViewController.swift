@@ -1,5 +1,5 @@
 //
-//  ReceiptDetailsViewController.swift
+//  RecipeDetailsViewController.swift
 //  Godt
 //
 //  Created by Aleksandra Kwiecien on 17/03/2018.

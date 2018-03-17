@@ -9,5 +9,5 @@
 import Foundation
 
 struct Config {
-    
+    static let baseURL = "https://www.godt.no/api/"
 }

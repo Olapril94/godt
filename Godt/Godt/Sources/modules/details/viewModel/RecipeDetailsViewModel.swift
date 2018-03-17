@@ -1,5 +1,5 @@
 //
-//  ReceiptListViewController.swift
+//  RecipeDetailsViewModel.swift
 //  Godt
 //
 //  Created by Aleksandra Kwiecien on 17/03/2018.
@@ -9,8 +9,6 @@
 import Foundation
 import UIKit
 
-class ReceiptListViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+class ReceiptDetailsViewModel {
+    
 }
