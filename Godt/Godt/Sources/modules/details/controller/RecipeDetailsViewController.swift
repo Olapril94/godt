@@ -21,6 +21,7 @@ class RecipeDetailsViewController: UIViewController {
     
     private var viewModel: RecipeDetailsViewModel!
     private var recipeDetails: RecipeDetailsDomain?
+    private let headerCellHeight: CGFloat = 40
     fileprivate let webViewSegueIdentifier = "WebViewSegueIdentifier"
     
     // MARK: - Public properties
@@ -64,7 +65,6 @@ class RecipeDetailsViewController: UIViewController {
         
         tableView.tableFooterView = UIView()
         tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = viewModel.recipeSection.recipeSectionCellHeight
     }
     
     // MARK: - Prepare for segue
@@ -113,7 +113,7 @@ extension RecipeDetailsViewController: UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return viewModel.headerCellHeight
+        return headerCellHeight
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -122,7 +122,6 @@ extension RecipeDetailsViewController: UITableViewDelegate, UITableViewDataSourc
         header.setup(title: viewModel.sections[section].recipeSectionTitle)
         return header
     }
-    
 }
 
 // MARK: - Recipe details view controller delegate

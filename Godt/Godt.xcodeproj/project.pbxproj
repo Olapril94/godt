@@ -154,13 +154,6 @@
 			path = domain;
 			sourceTree = "<group>";
 		};
-		1F0E2E39205DAEB9004B5E16 /* debouncer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = debouncer;
-			sourceTree = "<group>";
-		};
 		1F0E2E3C205DB223004B5E16 /* models */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,7 +266,6 @@
 		1FCCEA08205D7D16002BC945 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				1F0E2E39205DAEB9004B5E16 /* debouncer */,
 				1FCCEA09205D7D16002BC945 /* logger */,
 				1FCCEA0A205D7D16002BC945 /* extensions */,
 			);

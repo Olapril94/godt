@@ -9,7 +9,7 @@
 import Foundation
 
 class Log {
-    
+
     enum LogType: String {
         case debug = "🔹DEBUG: "
         case info = "✅INFO: "

@@ -22,6 +22,7 @@ class WebViewModel {
     }
     
     // MARK: - WebView request
+    
     func setupWebView(with id: Int, completion: @escaping (URLRequest) -> Void) {
         let url = URL(string: "https://www.godt.no/oppskrift/\(id)")
         if let url = url {
