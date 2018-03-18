@@ -15,9 +15,8 @@ class RecipeDetailsViewModel {
     
     private let service: RecipeDetailsService!
     private weak var controller: RecipeDetailsViewControllerDelegate?
-    var recipeSection: RecipeSection = .description
     
-    let headerCellHeight: CGFloat = 40
+    // MARK: - Public properties
     
     var sections: [RecipeSection] = [.description, .info]
     
