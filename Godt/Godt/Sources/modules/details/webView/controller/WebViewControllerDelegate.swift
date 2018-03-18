@@ -1,13 +1,13 @@
 //
-//  RecipeListViewControllerDelegate.swift
+//  WebViewControllerDelegate.swift
 //  Godt
 //
-//  Created by Aleksandra Kwiecien on 17/03/2018.
+//  Created by Aleksandra Kwiecien on 18/03/2018.
 //  Copyright © 2018 Aleksandra Kwiecien. All rights reserved.
 //
 
 import Foundation
 
-protocol RecipeListViewControllerDelegate: class {
+protocol WebViewControllerDelegate: class {
     func showError(withMessage message: String)
 }

@@ -14,7 +14,7 @@ class RecipeListViewModel {
     // MARK: - Private properties
     
     private let service: RecipeListService!
-    private let controller: RecipeListViewControllerDelegate
+    private weak var controller: RecipeListViewControllerDelegate?
     
     // MARK: - Intialization
     
@@ -26,12 +26,12 @@ class RecipeListViewModel {
     func getRecipeResponse(withQuery query: String, completion: @escaping (RecipesResponseDomain) -> Void) {
         
         service.getRecipesResponse(withQuery: query) { (recipesResponse, error) in
-            if let recipesResponse = recipesResponse {
-                completion(RecipesResponseDomain(entity: recipesResponse))
+            if let recipesResponseEntity = recipesResponse {
+                completion(RecipesResponseDomain(entity: recipesResponseEntity))
             }
             
             if let error = error {
-                self.controller.showError(withMessage: error.localizedMessage)
+                self.controller?.showError(withMessage: error.localizedMessage)
             }
         }
     }

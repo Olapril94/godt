@@ -7,6 +7,12 @@
 //
 
 import Foundation
+import UIKit
 
 struct Color {
+    
+    static let mainColor = UIColor(hexString: "#59514c")
+    static let tintColor = UIColor(hexString: "#ce4537")
+    static let backgroundColor = UIColor(hexString: "#f5f5f5")
+    
 }
