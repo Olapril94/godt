@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Godt
+
+  Created by Aleksandra Kwiecien on 18/03/2018.
+  Copyright © 2018 Aleksandra Kwiecien. All rights reserved.
+*/
+
+/* Search List */
+
+"Main.tile" = "Recipes";
+
+/* Recipe Details */
+
+"Recipe.description" = "Description";
+"Recipe.info" = "Info";
+"Recipe.info.decription" = "View original";
+

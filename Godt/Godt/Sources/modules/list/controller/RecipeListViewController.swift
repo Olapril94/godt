@@ -22,6 +22,7 @@ class RecipeListViewController: UIViewController {
     fileprivate var recipeResponse: RecipesResponseDomain?
     fileprivate var recipeResponseWithoutSearch: RecipesResponseDomain?
     fileprivate let detailsSegueIdentifier = "RecipeDetailsSegueIdentifier"
+    fileprivate let tableViewCellHeight: CGFloat = 70
     
     // MARK: - Public properties
     
@@ -37,7 +38,10 @@ class RecipeListViewController: UIViewController {
             self.tableView.reloadData()
         }
         setupView()
+        hideKeyboardOnViewTap()
     }
+    
+    // MARK: - Request with query
     
     fileprivate func makeRecipesResponseRequest(withQuery query: String = "") {
         viewModel.getRecipeResponse(withQuery: query) { result in
@@ -52,10 +56,16 @@ class RecipeListViewController: UIViewController {
         setupNavigationBar()
         setupSerchBar()
         setupTableView()
+        title()
     }
     
     private func setupNavigationBar() {
-        
+        self.navigationController?.navigationBar.barTintColor = Color.mainColor
+        self.navigationController?.navigationBar.tintColor = UIColor.black
+    }
+    
+    private func title() {
+        title = "Main.tile".localized
     }
     
     private func setupSerchBar() {
@@ -65,14 +75,19 @@ class RecipeListViewController: UIViewController {
     private func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
+        
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = tableViewCellHeight
+        
         tableView.register(UINib(nibName: String(describing: RecipeTableViewCell.self), bundle: Bundle.main), forCellReuseIdentifier: String(describing: RecipeTableViewCell.self))
     }
     
     // MARK: - Prepare for segue
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destinationViewController = segue.destination as? RecipeDetailsViewController, let id = sender as? Int {
-            destinationViewController.recipeId = id
+        if let destinationViewController = segue.destination as? RecipeDetailsViewController, let recipe = sender as? RecipeDomain {
+            destinationViewController.recipeId = recipe.id
+            destinationViewController.imageUrl = recipe.imageUrl
         }
     }
 }
@@ -113,7 +128,7 @@ extension RecipeListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let id = recipeResponse?.results[indexPath.row].id
+        let id = recipeResponse?.results[indexPath.row]
         performSegue(withIdentifier: detailsSegueIdentifier, sender: id)
     }
 }
@@ -126,5 +141,19 @@ extension RecipeListViewController: RecipeListViewControllerDelegate {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         alert.addAction(cancelAction)
         alert.show(self, sender: nil)
+    }
+}
+
+// MARK: - Keyboard dismiss tap handling
+
+extension RecipeListViewController {
+    func hideKeyboardOnViewTap() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
 }

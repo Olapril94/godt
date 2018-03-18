@@ -25,6 +25,16 @@
 		1F0E2E38205DA879004B5E16 /* RecipeDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E37205DA879004B5E16 /* RecipeDomain.swift */; };
 		1F0E2E3E205DB232004B5E16 /* RecipeDetailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E3D205DB232004B5E16 /* RecipeDetailsEntity.swift */; };
 		1F0E2E40205DB240004B5E16 /* RecipeDetailsDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E3F205DB240004B5E16 /* RecipeDetailsDomain.swift */; };
+		1F0E2E44205DBA40004B5E16 /* RecipeDetailsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E43205DBA40004B5E16 /* RecipeDetailsViewControllerDelegate.swift */; };
+		1F0E2E47205DCDD6004B5E16 /* RecipeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E46205DCDD6004B5E16 /* RecipeHeaderCell.swift */; };
+		1F0E2E49205DCE34004B5E16 /* RecipeHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0E2E48205DCE34004B5E16 /* RecipeHeaderCell.xib */; };
+		1F0E2E4F205DE46D004B5E16 /* RecipeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E4E205DE46D004B5E16 /* RecipeSection.swift */; };
+		1F0E2E51205DE587004B5E16 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F0E2E50205DE587004B5E16 /* Localizable.strings */; };
+		1F0E2E54205DE92E004B5E16 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E53205DE92E004B5E16 /* WebViewController.swift */; };
+		1F0E2E58205DE94A004B5E16 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E57205DE94A004B5E16 /* WebViewModel.swift */; };
+		1F0E2E5A205DF602004B5E16 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0E2E59205DF602004B5E16 /* WebKit.framework */; };
+		1F0E2E5C205E0134004B5E16 /* WebViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E5B205E0134004B5E16 /* WebViewControllerDelegate.swift */; };
+		1F0E2E5E205E070C004B5E16 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E2E5D205E070C004B5E16 /* UIColor.swift */; };
 		1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */; };
 		1FCCEA20205D7D16002BC945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */; };
 		1FCCEA21205D7D16002BC945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCEA17205D7D16002BC945 /* Main.storyboard */; };
@@ -64,6 +74,16 @@
 		1F0E2E37205DA879004B5E16 /* RecipeDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDomain.swift; sourceTree = "<group>"; };
 		1F0E2E3D205DB232004B5E16 /* RecipeDetailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsEntity.swift; sourceTree = "<group>"; };
 		1F0E2E3F205DB240004B5E16 /* RecipeDetailsDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsDomain.swift; sourceTree = "<group>"; };
+		1F0E2E43205DBA40004B5E16 /* RecipeDetailsViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewControllerDelegate.swift; sourceTree = "<group>"; };
+		1F0E2E46205DCDD6004B5E16 /* RecipeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHeaderCell.swift; sourceTree = "<group>"; };
+		1F0E2E48205DCE34004B5E16 /* RecipeHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeHeaderCell.xib; sourceTree = "<group>"; };
+		1F0E2E4E205DE46D004B5E16 /* RecipeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSection.swift; sourceTree = "<group>"; };
+		1F0E2E50205DE587004B5E16 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		1F0E2E53205DE92E004B5E16 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		1F0E2E57205DE94A004B5E16 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		1F0E2E59205DF602004B5E16 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1F0E2E5B205E0134004B5E16 /* WebViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllerDelegate.swift; sourceTree = "<group>"; };
+		1F0E2E5D205E070C004B5E16 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		1FCCE9E0205D7588002BC945 /* Godt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCCEA0B205D7D16002BC945 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FCCEA16205D7D16002BC945 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0E2E5A205DF602004B5E16 /* WebKit.framework in Frameworks */,
 				012F1174029F6366D5392A92 /* Pods_Godt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +186,41 @@
 			path = entity;
 			sourceTree = "<group>";
 		};
+		1F0E2E45205DCDC9004B5E16 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E2E46205DCDD6004B5E16 /* RecipeHeaderCell.swift */,
+				1F0E2E48205DCE34004B5E16 /* RecipeHeaderCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		1F0E2E52205DE91A004B5E16 /* webView */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E2E56205DE93D004B5E16 /* viewModel */,
+				1F0E2E55205DE933004B5E16 /* controller */,
+			);
+			path = webView;
+			sourceTree = "<group>";
+		};
+		1F0E2E55205DE933004B5E16 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E2E53205DE92E004B5E16 /* WebViewController.swift */,
+				1F0E2E5B205E0134004B5E16 /* WebViewControllerDelegate.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1F0E2E56205DE93D004B5E16 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1F0E2E57205DE94A004B5E16 /* WebViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
 		1FCCE9D7205D7588002BC945 = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				1FCCEA30205D7F70002BC945 /* String.swift */,
+				1F0E2E5D205E070C004B5E16 /* UIColor.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -253,6 +310,8 @@
 		1FCCEA0D205D7D16002BC945 /* details */ = {
 			isa = PBXGroup;
 			children = (
+				1F0E2E52205DE91A004B5E16 /* webView */,
+				1F0E2E45205DCDC9004B5E16 /* cells */,
 				1F0E2E3C205DB223004B5E16 /* models */,
 				1FCCEA0E205D7D16002BC945 /* viewModel */,
 				1FCCEA0F205D7D16002BC945 /* controller */,
@@ -265,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				1FCCEA26205D7D65002BC945 /* RecipeDetailsViewModel.swift */,
+				1F0E2E4E205DE46D004B5E16 /* RecipeSection.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -273,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				1FCCEA24205D7D4E002BC945 /* RecipeDetailsViewController.swift */,
+				1F0E2E43205DBA40004B5E16 /* RecipeDetailsViewControllerDelegate.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -367,6 +428,7 @@
 			children = (
 				1FCCEA1C205D7D16002BC945 /* Assets.xcassets */,
 				1FCCEA1D205D7D16002BC945 /* Info.plist */,
+				1F0E2E50205DE587004B5E16 /* Localizable.strings */,
 			);
 			path = Resorces;
 			sourceTree = "<group>";
@@ -383,6 +445,7 @@
 		7AA748B065174E07D2BBE4D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F0E2E59205DF602004B5E16 /* WebKit.framework */,
 				11E76ED04A55EF2DC86F9A6C /* Pods_Godt.framework */,
 			);
 			name = Frameworks;
@@ -459,9 +522,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0E2E49205DCE34004B5E16 /* RecipeHeaderCell.xib in Resources */,
 				1FCCEA23205D7D16002BC945 /* Info.plist in Resources */,
 				1FCCEA20205D7D16002BC945 /* LaunchScreen.storyboard in Resources */,
 				1FCCEA22205D7D16002BC945 /* Assets.xcassets in Resources */,
+				1F0E2E51205DE587004B5E16 /* Localizable.strings in Resources */,
 				1F0E2E2B205D92A0004B5E16 /* RecipeTableViewCell.xib in Resources */,
 				1FCCEA21205D7D16002BC945 /* Main.storyboard in Resources */,
 			);
@@ -533,15 +598,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCCEA1F205D7D16002BC945 /* AppDelegate.swift in Sources */,
+				1F0E2E54205DE92E004B5E16 /* WebViewController.swift in Sources */,
 				1FCCEA2F205D7F14002BC945 /* RecipeListServices.swift in Sources */,
+				1F0E2E58205DE94A004B5E16 /* WebViewModel.swift in Sources */,
 				1F0E2E36205DA7F6004B5E16 /* RecipesResponseDomain.swift in Sources */,
 				1F0E2E1A205D85F3004B5E16 /* UserAuthManager.swift in Sources */,
 				1F0E2E2D205D92B4004B5E16 /* RecipeTableViewCell.swift in Sources */,
 				1F0E2E23205D85F9004B5E16 /* ImageError.swift in Sources */,
+				1F0E2E44205DBA40004B5E16 /* RecipeDetailsViewControllerDelegate.swift in Sources */,
 				1F0E2E1D205D85F3004B5E16 /* ResponseError.swift in Sources */,
 				1FCCEA37205D809B002BC945 /* Color.swift in Sources */,
 				1FCCEA33205D7FC7002BC945 /* Log.swift in Sources */,
 				1FCCEA2B205D7DC6002BC945 /* RecipeListViewController.swift in Sources */,
+				1F0E2E5E205E070C004B5E16 /* UIColor.swift in Sources */,
 				1F0E2E1E205D85F3004B5E16 /* ResponseErrorType.swift in Sources */,
 				1F0E2E25205D85F9004B5E16 /* ImageManager.swift in Sources */,
 				1F0E2E32205DA5F1004B5E16 /* RecipeListViewControllerDelegate.swift in Sources */,
@@ -553,10 +622,13 @@
 				1F0E2E1C205D85F3004B5E16 /* UserToken.swift in Sources */,
 				1F0E2E1B205D85F3004B5E16 /* HttpClient.swift in Sources */,
 				1FCCEA35205D808C002BC945 /* Config.swift in Sources */,
+				1F0E2E47205DCDD6004B5E16 /* RecipeHeaderCell.swift in Sources */,
 				1FCCEA31205D7F70002BC945 /* String.swift in Sources */,
 				1F0E2E40205DB240004B5E16 /* RecipeDetailsDomain.swift in Sources */,
+				1F0E2E5C205E0134004B5E16 /* WebViewControllerDelegate.swift in Sources */,
 				1F0E2E19205D85F3004B5E16 /* RecipeListRouter.swift in Sources */,
 				1F0E2E3E205DB232004B5E16 /* RecipeDetailsEntity.swift in Sources */,
+				1F0E2E4F205DE46D004B5E16 /* RecipeSection.swift in Sources */,
 				1F0E2E28205D8B02004B5E16 /* RecipeDetailsRouter.swift in Sources */,
 				1F0E2E38205DA879004B5E16 /* RecipeDomain.swift in Sources */,
 				1FCCEA29205D7DA6002BC945 /* RecipeListViewModel.swift in Sources */,

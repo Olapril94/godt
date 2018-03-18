@@ -12,12 +12,10 @@ class RecipeDetailsDomain {
     let title: String
     let description: String
     let numberOfLikes: Int
-    let imageUrl: String
     
-    init(entity: RecipeDetailsEntity, imageUrl: String) {
+    init(entity: RecipeDetailsEntity) {
         title = entity.title ?? ""
         description = entity.description ?? ""
         numberOfLikes = entity.numberOfLikes ?? 0
-        self.imageUrl = imageUrl
     }
 }
